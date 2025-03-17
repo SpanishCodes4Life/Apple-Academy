@@ -1,0 +1,65 @@
+/*
+func isPrime(_ number: Int) -> Bool {
+    if number <= 1 {
+        return false
+    }
+    for i in 2..<number {
+        if number % i == 0 {
+            return false
+        }
+    }
+    return true
+}
+
+let number = 7
+var primeCount = 0
+
+print("Tabuada do \(number):")
+for i in 1...10 {
+    let result = number * i
+    let primeCheck = isPrime(result)
+    if primeCheck {
+        primeCount += 1
+        print("\(number) x \(i) = \(result) - Primo")
+    } else {
+        print("\(number) x \(i) = \(result) - Não é primo")
+    }
+}
+
+print("\nTotal de números primos encontrados: \(primeCount)")
+*/
+
+func calcPar (_ number : Int) -> Bool {
+    if number % 2 == 0 {
+        return true
+    }
+    return false
+}
+
+let number = 9
+
+print("Tabuada do \(number)")
+for i in 1...10 {
+    let result = number * i
+    let resultPar = calcPar(result)
+    print (resultPar)
+    if resultPar == true {
+        print("\(number) x \(i) = \(result) é Par")
+    } else {
+        print("\(number) x \(i) = \(result) é Impar")
+    }
+}
+class MiCompaJorge{
+    var name : String = ""
+    var age : Int = 23
+    var height : Double = 1.76
+    var weight : Double = 65.70
+    func idade() {
+        if idade < 18 {
+            print("Menorzin do Grau :)")
+
+        }
+     }
+    }
+let jorge = MiCompaJorge()
+jorge.name = jorge
