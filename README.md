@@ -1,5 +1,5 @@
 # Apple-Academy
 Curso da Apple Academy
-**Curso Concluído**
-**10 HORAS DE HORAS COMPLEMENTARES**
-**LINGUAGEM DE PROGRAMAÇÃO: SWIFT**
+**CONCLUÍDO** Providenciado pela Apple Academy
+**TEMPO** 10 HORAS
+**LINGUAGEM DE PROGRAMAÇÃO** SWIFT
